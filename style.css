@@ -5,10 +5,13 @@ body{
 h1{
   font-size: 50px;
 }
+h2{
+  font-size: 40px;
+}
 .color-add{
 color: orangered;
 }
-section{
+.flexible-container{
   display: flex;
   margin-bottom: 100px;
 }
@@ -28,6 +31,18 @@ padding: 10px 40px;
 color: white;
 font-weight: 700;
 }
+.experience-block{
+  box-shadow: 10px 20px 30px palevioletred;
+  width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  border-left: 10px solid deeppink;
+}
 .top-banner{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
@@ -43,4 +58,10 @@ font-weight: 700;
 }
 .width-size img{
   width: 600px;
+}
+.border-left{
+  border-left: 10px solid rgb(40, 11, 230);
+}
+footer p{
+  text-align: center;
 }
